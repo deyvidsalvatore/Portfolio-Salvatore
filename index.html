@@ -6,12 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio de Deyvid</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
 <body>
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a href="index.html" class="cabecalho__menu__link">Home</a>
+            <a href="sobre.html" class="cabecalho__menu__link">Sobre Mim</a>
+            <a href="curriculo.html" class="cabecalho__menu__link">Currículo</a>
+        </nav>
+    </header>
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
             <h1 class="apresentacao__conteudo__titulo">
@@ -24,17 +30,23 @@
                 Ajudo pequenos negócios e devs a colocarem em prática boas ideias. Vamos conversar?
             </p>
             <div class="apresentacao__links">
+                <h2 class="apresentacao__conteudo__subtitulo">Acesse minhas redes</h2>
                 <a class="apresentacao__links__link" href="https://instagram.com/deyvid.salvatore">
                     <i class="fab fa-instagram"></i> Instagram
                 </a>
                 <a class="apresentacao__links__link" href="https://github.com/deyvidsalvatore">
                     <i class="fab fa-github"></i> Github
                 </a>
+                <a class="apresentacao__links__link" href="https://linkedin.com/in/deyvidsantosdevops">
+                    <i class="fab fa-linkedin "></i> Linkedin
+                </a>
             </div>
         </section>
-        <img src="assets/profile.png" alt="Foto do Deyvid Lo-Fi em Bits" />
+        <img id="lofi" src="assets/profile.png" alt="Foto do Deyvid Lo-Fi em Bits" />
     </main>
-    <footer></footer>
+    <footer class="rodape">
+        Desenvolvido por Deyvid Salvatore &copy; 2024
+    </footer>
 </body>
 
 </html>
